@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import agent from "../helper/axios";
 
-// First, create the thunk
 export const loginUser = createAsyncThunk(
   "auth/loginUser",
   async (user, thunkApi) => {
